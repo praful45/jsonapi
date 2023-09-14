@@ -1,207 +1,212 @@
 {
-    "categories": [
-      {
-        "id": 1,
-        "name": "Fruits"
-      },
-      {
-        "id": 2,
-        "name": "Vegetables"
-      },
-      {
-        "id": 3,
-        "name": "Dairy Products"
-      },
-      {
-        "id": 4,
-        "name": "Bakery"
-      },
-      {
-        "id": 5,
-        "name": "Meat and Seafood"
-      },
-      {
-        "id": 6,
-        "name": "Canned Goods"
-      }
-    ],
-    "products": [
-      {
-        "id": 101,
-        "name": "Apples",
-        "description": "Fresh and juicy apples",
-        "price": 2.49,
-        "quantity": "per kg",
-        "photo": "https://example.com/apple.jpg",
-        "stars_rating": 4.0,
-        "review_number": 120,
-        "category_id": 1
-      },
-      {
-        "id": 102,
-        "name": "Bananas",
-        "description": "Ripe and delicious bananas",
-        "price": 1.99,
-        "quantity": "per dozen",
-        "photo": "https://example.com/bananas.jpg",
-        "stars_rating": 4.5,
-        "review_number": 85,
-        "category_id": 1
-      },
-      {
-        "id": 103,
-        "name": "Oranges",
-        "description": "Sweet and tangy oranges",
-        "price": 3.29,
-        "quantity": "per kg",
-        "photo": "https://example.com/oranges.jpg",
-        "stars_rating": 3.5,
-        "review_number": 90,
-        "category_id": 1
-      },
-      {
-        "id": 104,
-        "name": "Grapes",
-        "description": "Seedless grapes for snacking",
-        "price": 2.99,
-        "quantity": "per kg",
-        "photo": "https://example.com/grapes.jpg",
-        "stars_rating": 4.0,
-        "review_number": 110,
-        "category_id": 1
-      },
-      {
-        "id": 105,
-        "name": "Broccoli",
-        "description": "Fresh and healthy broccoli",
-        "price": 1.79,
-        "quantity": "per kg",
-        "photo": "https://example.com/broccoli.jpg",
-        "stars_rating": 4.5,
-        "review_number": 75,
-        "category_id": 2
-      },
-      {
-        "id": 106,
-        "name": "Tomatoes",
-        "description": "Vine-ripened tomatoes",
-        "price": 2.49,
-        "quantity": "per kg",
-        "photo": "https://example.com/tomatoes.jpg",
-        "stars_rating": 3.0,
-        "review_number": 65,
-        "category_id": 2
-      },
-      {
-        "id": 107,
-        "name": "Spinach",
-        "description": "Fresh and leafy spinach",
-        "price": 1.99,
-        "quantity": "per bunch",
-        "photo": "https://example.com/spinach.jpg",
-        "stars_rating": 4.0,
-        "review_number": 80,
-        "category_id": 2
-      },
-      {
-        "id": 108,
-        "name": "Cucumbers",
-        "description": "Crunchy cucumbers for salads",
-        "price": 1.49,
-        "quantity": "per kg",
-        "photo": "https://example.com/cucumbers.jpg",
-        "stars_rating": 3.5,
-        "review_number": 70,
-        "category_id": 2
-      },
-      {
-        "id": 109,
-        "name": "Milk",
-        "description": "Fresh whole milk",
-        "price": 2.99,
-        "quantity": "1 liter",
-        "photo": "https://example.com/milk.jpg",
-        "stars_rating": 4.5,
-        "review_number": 210,
-        "category_id": 3
-      },
-      {
-        "id": 110,
-        "name": "Cheese",
-        "description": "A variety of delicious cheeses",
-        "price": 4.99,
-        "quantity": "200g",
-        "photo": "https://example.com/cheese.jpg",
-        "stars_rating": 4.2,
-        "review_number": 95,
-        "category_id": 3
-      },
-      {
-        "id": 111,
-        "name": "Yogurt",
-        "description": "Creamy and probiotic yogurt",
-        "price": 1.99,
-        "quantity": "500g",
-        "photo": "https://example.com/yogurt.jpg",
-        "stars_rating": 4.0,
-        "review_number": 120,
-        "category_id": 3
-      },
-      {
-        "id": 112,
-        "name": "Bread",
-        "description": "Freshly baked bread",
-        "price": 2.49,
-        "quantity": "1 loaf",
-        "photo": "https://example.com/bread.jpg",
-        "stars_rating": 4.5,
-        "review_number": 85,
-        "category_id": 4
-      },
-      {
-        "id": 113,
-        "name": "Bagels",
-        "description": "Assorted bagels for breakfast",
-        "price": 3.99,
-        "quantity": "6-pack",
-        "photo": "https://example.com/bagels.jpg",
-        "stars_rating": 3.5,
-        "review_number": 90,
-        "category_id": 4
-      },
-      {
-        "id": 114,
-        "name": "Pork Chops",
-        "description": "Juicy pork chops",
-        "price": 6.99,
-        "quantity": "per kg",
-        "photo": "https://example.com/pork_chops.jpg",
-        "stars_rating": 4.0,
-        "review_number": 110,
-        "category_id": 5
-      },
-      {
-        "id": 115,
-        "name": "Salmon",
-        "description": "Fresh salmon fillets",
-        "price": 10.99,
-        "quantity": "per kg",
-        "photo": "https://example.com/salmon.jpg",
-        "stars_rating": 4.5,
-        "review_number": 75,
-        "category_id": 5
-      },
-      {
-        "id": 116,
-        "name": "Tuna",
-        "description": "Canned tuna in water",
-        "price": 1.99,
-        "quantity": "180g can",
-        "photo": "https://example.com/tuna.jpg",
-        "stars_rating": 3.0,
-        "review_number": 65,
-        "category_id": 6
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fruits",
+      "image": "https://www.clipartmax.com/png/small/2-23060_bread-fruit-clipart-vector-clip-art-online-royalty-fruit-and-veggies-clipart.png"
+    },
+    {
+      "id": 2,
+      "name": "Vegetables",
+      "image": "https://www.clipartmax.com/png/middle/2-27927_organic-food-vegetable-fruit-clip-art-vegetables-vector-png.png" 
+    },
+    {
+      "id": 3,
+      "name": "Dairy Products",
+      "image": "https://www.clipartmax.com/png/middle/99-992292_required-daily-intake-dairy-products-cartoons.png"
+    },
+    {
+      "id": 4,
+      "name": "Bakery",
+      "image": "https://www.clipartmax.com/png/middle/20-207397_bakery-icon.png" 
+    },
+    {
+      "id": 5,
+      "name": "Meat and Seafood",
+      "image": "https://imgs.search.brave.com/WwPFrxEJJVQArial5uFkj1CJYRYIcXulEAAeDkqFiEE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvZGlmZmVyZW50/LXR5cGVzLW1lYXQt/cHJvZHVjdHMtZmlz/aC1zZXQtaXNvbGF0/ZWQtc2V0LWZvb2Qt/d2hpdGUtYmFja2dy/b3VuZC1tZW51LWRl/c2lnbi1jYXJ0b29u/LXN0eWxlXzI2MzAx/Ni0xMDE5LmpwZz9z/aXplPTYyNiZleHQ9/anBn"
+    },
+    {
+      "id": 6,
+      "name": "Canned Goods",
+      "image": "https://www.clipartmax.com/png/middle/29-294513_food-clipartfood-itemsplay-canned-tuna-clip-art.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Apples",
+      "description": "Fresh and juicy apples",
+      "price": 2.49,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-applesapplehealthycutred-6415220155388uc3n.png",
+      "stars_rating": 4.0,
+      "review_number": 120,
+      "category_id": 1
+    },
+    {
+      "id": 102,
+      "name": "Bananas",
+      "description": "Ripe and delicious bananas",
+      "price": 1.99,
+      "quantity": "per dozen",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-bananasbananabananasyellow-bananabotanically-a-berryedible-fruitherbaceousgenus-musa-1701527189249nfdcx.png",
+      "stars_rating": 4.5,
+      "review_number": 85,
+      "category_id": 1
+    },
+    {
+      "id": 103,
+      "name": "Oranges",
+      "description": "Sweet and tangy oranges",
+      "price": 3.29,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-orange-orangesorangefruitbitter-orangeorangesclip-art-1701527336994d8taz.png",
+      "stars_rating": 3.5,
+      "review_number": 90,
+      "category_id": 1
+    },
+    {
+      "id": 104,
+      "name": "Grapes",
+      "description": "Seedless grapes for snacking",
+      "price": 2.99,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-grapesgrapeberrygrapesfruitfood-17015272281883l5rg.png",
+      "stars_rating": 4.0,
+      "review_number": 110,
+      "category_id": 1
+    },
+    {
+      "id": 105,
+      "name": "Broccoli",
+      "description": "Fresh and healthy broccoli",
+      "price": 1.79,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-broccolibroccoligreen-plantvegetablebroccolo-1701527240192nmjg8.png",
+      "stars_rating": 4.5,
+      "review_number": 75,
+      "category_id": 2
+    },
+    {
+      "id": 106,
+      "name": "Tomatoes",
+      "description": "Vine-ripened tomatoes",
+      "price": 2.49,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-red-tomatoestomatosalad-fruitred-fruittomatoes-1701527318288ib3rx.png",
+      "stars_rating": 3.0,
+      "review_number": 65,
+      "category_id": 2
+    },
+    {
+      "id": 107,
+      "name": "Spinach",
+      "description": "Fresh and leafy spinach",
+      "price": 1.99,
+      "quantity": "per bunch",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-spinachvegetables-green-spinach-941524712351zszxc.png",
+      "stars_rating": 4.0,
+      "review_number": 80,
+      "category_id": 2
+    },
+    {
+      "id": 108,
+      "name": "Cucumbers",
+      "description": "Crunchy cucumbers for salads",
+      "price": 1.49,
+      "quantity": "per kg",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-cucumbercucumbervegetablespicklegreenfoodhealthycucumbers-481522161925n6wbx.png",
+      "stars_rating": 3.5,
+      "review_number": 70,
+      "category_id": 2
+    },
+    {
+      "id": 109,
+      "name": "Milk",
+      "description": "Fresh whole milk",
+      "price": 2.99,
+      "quantity": "1 liter",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-milkmilkliquidnutritioncow-14115278769100sfpj.png",
+      "stars_rating": 4.5,
+      "review_number": 210,
+      "category_id": 3
+    },
+    {
+      "id": 110,
+      "name": "Cheese",
+      "description": "A variety of delicious cheeses",
+      "price": 4.99,
+      "quantity": "200g",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-cheesefood-organic-cheese-piece-block-dairy-941524634229to54i.png",
+      "stars_rating": 4.2,
+      "review_number": 95,
+      "category_id": 3
+    },
+    {
+      "id": 111,
+      "name": "Yogurt",
+      "description": "Creamy and probiotic yogurt",
+      "price": 1.99,
+      "quantity": "500g",
+      "photo": "https://imgs.search.brave.com/8a3IIVnRf5sqJjaVEPxdsfKTIBHOISPn03znjVgRvKs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nbWFydC5jb20v/ZmlsZXMvNS9Zb2d1/cnQtVHJhbnNwYXJl/bnQtQmFja2dyb3Vu/ZC5wbmc",
+      "stars_rating": 4.0,
+      "review_number": 120,
+      "category_id": 3
+    },
+    {
+      "id": 112,
+      "name": "Bread",
+      "description": "Freshly baked bread",
+      "price": 2.49,
+      "quantity": "1 loaf",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-fresh-breadfood-bakery-fresh-tasty-organic-bread-health-breakfast-wheat-barley-941524622555mpxde.png",
+      "stars_rating": 4.5,
+      "review_number": 85,
+      "category_id": 4
+    },
+    {
+      "id": 113,
+      "name": "Bagels",
+      "description": "Assorted bagels for breakfast",
+      "price": 3.99,
+      "quantity": "6-pack",
+      "photo": "https://purepng.com/public/uploads/large/purepng.com-delicious-bagelbagelfoodround-breadenglish-breakfastsalt-donutbagels-551521125193nhkf4.png",
+      "stars_rating": 3.5,
+      "review_number": 90,
+      "category_id": 4
+    },
+    {
+      "id": 114,
+      "name": "Pork Chops",
+      "description": "Juicy pork chops",
+      "price": 6.99,
+      "quantity": "per kg",
+      "photo": "https://images.unsplash.com/photo-1577271141104-b6bd7b76b8e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "stars_rating": 4.0,
+      "review_number": 110,
+      "category_id": 5
+    },
+    {
+      "id": 115,
+      "name": "Salmon",
+      "description": "Fresh salmon fillets",
+      "price": 10.99,
+      "quantity": "per kg",
+      "photo": "https://images.unsplash.com/photo-1499125562588-29fb8a56b5d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+      "stars_rating": 4.5,
+      "review_number": 75,
+      "category_id": 5
+    },
+    {
+      "id": 116,
+      "name": "Tuna",
+      "description": "Canned tuna in water",
+      "price": 1.99,
+      "quantity": "180g can",
+      "photo": "https://imgs.search.brave.com/vuy9vfTDQ4ERauGjZV5UOEMqzHpTnh1qIluV1m3Jz3Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mYXN0/cG5nLmNvbS9pbWFn/ZXMvZmlsZS95bnV4/MzQ4NHVzZ3VuYmhk/LnBuZw",
+      "stars_rating": 3.0,
+      "review_number": 65,
+      "category_id": 6
+    }
+  ]
+}
