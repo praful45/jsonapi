@@ -1,8 +1,4 @@
 {
-  "utc_time": {
-      "iso": new Date().toISOString(),
-      "timestamp": date.now()  
-  }
   "categories": [
     {
       "id": 1,
